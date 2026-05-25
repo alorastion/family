@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Крепкая семья — русская литература</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+
+<div class="grain"></div>
+
+<nav class="navbar">
+  <div class="logo">Крепкая семья</div>
+
+  <div class="menu">
+    <a href="#epochs">Эпохи</a>
+    <a href="#values">Ценности</a>
+    <a href="#quiz">Тест</a>
+    <a href="#articles">Статьи</a>
+  </div>
+</nav>
+
+<header class="hero">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+
+    <div class="tag">цифровая литературная выставка</div>
+
+    <h1>
+      Крепкая семья:<br>
+      взгляд сквозь века<br>
+      русской литературы
+    </h1>
+
+    <p>
+      Путешествие по эпохам, литературным героям и семейным ценностям,
+      которые объединяют поколения.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#epochs" class="primary-btn">Начать путешествие</a>
+      <a href="#quiz" class="secondary-btn">Пройти тест</a>
+    </div>
+
+  </div>
+
+</header>
+
+<section class="intro reveal">
+  <div class="intro-box">
+    <h2>Семья в русской литературе</h2>
+
+    <p>
+      Русская литература более тысячи лет размышляет о любви,
+      верности, воспитании детей и семейных конфликтах.
+      Через произведения разных эпох можно увидеть,
+      как менялись представления о семье —
+      и какие ценности оставались вечными.
+    </p>
+  </div>
+</section>
+
+<section id="epochs" class="epochs">
+
+<div class="section-title reveal">
+  <span>литературные эпохи</span>
+  <h2>Путешествие сквозь века</h2>
+</div>
+
+<div class="timeline">
+
+<div class="timeline-card reveal">
+  <div class="year">XI–XVII вв.</div>
+  <h3>Древнерусская литература</h3>
+
+  <p>
+    Семья как духовный союз и нравственный долг.
+  </p>
+
+  <ul>
+    <li>Повесть о Петре и Февронии</li>
+    <li>Домострой</li>
+    <li>Слово о полку Игореве</li>
+  </ul>
+</div>
+
+<div class="timeline-card reveal">
+  <div class="year">XVIII век</div>
+  <h3>Просвещение</h3>
+
+  <p>
+    Воспитание, семейная ответственность и мораль.
+  </p>
+
+  <ul>
+    <li>Недоросль</li>
+    <li>Бедная Лиза</li>
+  </ul>
+</div>
+
+<div class="timeline-card reveal">
+  <div class="year">XIX век</div>
+  <h3>Золотой век</h3>
+
+  <p>
+    Семейные идеалы, конфликты и кризисы.
+  </p>
+
+  <ul>
+    <li>Война и мир</li>
+    <li>Анна Каренина</li>
+    <li>Отцы и дети</li>
+  </ul>
+</div>
+
+<div class="timeline-card reveal">
+  <div class="year">XX век</div>
+  <h3>Эпоха потрясений</h3>
+
+  <p>
+    Семья во время войн и революций.
+  </p>
+
+  <ul>
+    <li>Тихий Дон</li>
+    <li>Белая гвардия</li>
+    <li>Матрёнин двор</li>
+  </ul>
+</div>
+
+<div class="timeline-card reveal">
+  <div class="year">XXI век</div>
+  <h3>Современный взгляд</h3>
+
+  <p>
+    Поиск семейного счастья сегодня.
+  </p>
+
+  <ul>
+    <li>Медея и её дети</li>
+    <li>Лавр</li>
+    <li>Зулейха открывает глаза</li>
+  </ul>
+</div>
+
+</div>
+</section>
+
+<section id="values" class="values">
+
+<div class="section-title light reveal">
+  <span>главные ценности</span>
+  <h2>Формула крепкой семьи</h2>
+</div>
+
+<div class="orbital-system reveal">
+
+<div class="center-circle">
+  Семья
+</div>
+
+<div class="orbit orbit1">
+  <div class="planet">Любовь</div>
+</div>
+
+<div class="orbit orbit2">
+  <div class="planet">Доверие</div>
+</div>
+
+<div class="orbit orbit3">
+  <div class="planet">Верность</div>
+</div>
+
+<div class="orbit orbit4">
+  <div class="planet">Поддержка</div>
+</div>
+
+</div>
+
+<div class="formula-box reveal">
+  Любовь + уважение + поддержка + ответственность = крепкая семья
+</div>
+
+</section>
+
+<section id="quiz" class="quiz">
+
+<div class="section-title reveal">
+  <span>интерактив</span>
+  <h2>Какой вы литературный семьянин?</h2>
+</div>
+
+<div class="quiz-box reveal">
+
+<h3>Что важнее всего в семье?</h3>
+
+<div class="answers">
+  <button onclick="showResult('rostov')">Тепло и поддержка</button>
+  <button onclick="showResult('mironov')">Верность и честность</button>
+  <button onclick="showResult('bolkonsky')">Ответственность и долг</button>
+  <button onclick="showResult('bazarov')">Свобода и независимость</button>
+</div>
+
+<div id="result-box"></div>
+
+</div>
+
+</section>
+
+<section id="articles" class="articles">
+
+<div class="section-title reveal">
+  <span>статьи</span>
+  <h2>Уроки крепкой семьи из русской литературы</h2>
+</div>
+
+<div class="article-grid">
+
+<div class="article-card reveal">
+  <h3>Чему нас учит семья Ростовых?</h3>
+  <p>
+    Поддержка, искренность и семейное тепло помогают преодолеть любые испытания.
+  </p>
+</div>
+
+<div class="article-card reveal">
+  <h3>Почему разрушилась семья Анны Карениной?</h3>
+  <p>
+    Одиночество, отсутствие искренности и эмоциональная дистанция постепенно разрушают отношения.
+  </p>
+</div>
+
+<div class="article-card reveal">
+  <h3>Актуален ли конфликт «отцов и детей» сегодня?</h3>
+  <p>
+    Спор поколений остаётся актуальным, когда люди перестают слышать друг друга.
+  </p>
+</div>
+
+<div class="article-card reveal">
+  <h3>Что делает семью по-настоящему крепкой?</h3>
+  <p>
+    Верность, терпение и взаимная поддержка — главные ценности семьи.
+  </p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+  <p>Интерактивная литературная выставка • 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
